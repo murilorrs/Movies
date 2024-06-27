@@ -30,8 +30,6 @@ h2 {
   justify-content: center;
 }
 
-
-
 .movie-card {
   display: flex;
   flex-direction: column;
@@ -78,3 +76,10 @@ button:hover{
   cursor: pointer;
 }
 
+.cast h3{
+  margin: 10px 0 10px 0;
+}
+
+.cast ul li{
+  margin-top:5px;
+}

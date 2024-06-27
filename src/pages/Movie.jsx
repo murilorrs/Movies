@@ -85,7 +85,7 @@ const Movie = () => {
               <p>{movie.overview}</p>
             </div>
 
-            <div className='info cast'>
+            <div className='cast'>
               <h3>Elenco:</h3>
               <ul>
                 {cast.slice(0,9).map((actor) => (
