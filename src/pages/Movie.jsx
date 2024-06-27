@@ -33,18 +33,21 @@ const Movie = () => {
 
   return (
     <div
-      className='movie_background'
-      style={{
-        backgroundImage: `url(${baseImageUrl}${movie && movie.backdrop_path})`,
-      }}>
+    
+    className='movie_background'
+    style={{
+      backgroundImage: `url(${baseImageUrl}${movie && movie.backdrop_path})`,
+    }}>
 
       <div className='overlay'></div>
 
       {movie && (
         <div className='movie_details'>
           <div className='movie_info'>
+            <div className='titulo'>
             <h1>{movie.title}</h1>
             <p className='tagline'>{movie.tagline}</p>
+            </div>
 
             <div className='info'>
               <h3>
