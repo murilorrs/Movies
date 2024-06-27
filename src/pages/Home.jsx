@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
   <div className ="container">
-    <h2 className="title">Lançamentos!</h2>
+    <h2 className="title">Novos Lançamentos!</h2>
     {/* <p>Os ultimos lançamentos do cinema!</p> */}
     <div className="movies-container">
       {latestMovies.length === 0 && <p>Carregando...</p>}
