@@ -15,7 +15,3 @@ a {
   color: #f32c2c;
   display: flex;
 }
-
-a:hover {
-  color:#c92a2a;
-}

@@ -1,0 +1,72 @@
+.movie_background {
+  width: 100%;
+  height: 100vh;
+  /* position: relative; */
+  overflow: hidden;
+  background-size: cover;
+  /* Garante que a imagem cubra todo o elemento */
+  background-position: center;
+  /* Centraliza a imagem */
+  background-repeat: no-repeat;
+  /* Evita repetições da imagem */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Fundo escuro com transparência */
+}
+
+.movie_details {
+  position: absolute;
+  left: 20px;
+  /* Alinha no canto esquerdo */
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 600px;
+  padding: 20px;
+  color: #fff;
+  z-index: 1;
+  /* Garante que as informações do filme estejam sobrepostas ao fundo */
+}
+
+.movie_info {
+  padding: 20px;
+}
+
+.tagline {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.info {
+  margin-top: 15px;
+}
+
+.info h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.info p {
+  font-size: 16px;
+}
+
+.info.description {
+  margin-top: 20px;
+}
+
+.info.description h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.info.description p {
+  font-size: 16px;
+  line-height: 1.5;
+}

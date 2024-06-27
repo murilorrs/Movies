@@ -26,6 +26,7 @@ h2 {
   gap: 30px;
   max-width: 100%;
   margin-top: 30px;
+  justify-content: center;
 }
 
 .movie-card {
@@ -61,5 +62,13 @@ h2 {
 }
 .button_detalhes a:hover {
   color: #fff;
+}
+
+a:hover{
+  color: #d12a2a;
+}
+
+button:hover{
+  cursor: pointer;
 }
 

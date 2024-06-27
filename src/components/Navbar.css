@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 1);
   position: fixed;
   width: 100%;
 }
@@ -29,13 +29,16 @@
   border-radius: 6px;
   border: none;
   margin: 0px 10px;
+  border: 2px solid rgb(245, 245, 245);
 }
 
 #navbar button {
+  background-color:#c00000 ;
   display: flex;
   align-items: center;
   padding: 0rem .8rem;
-  color: #f32c2c;
-  border: none;
+  color: #fff;
+  border: 2px solid rgb(245, 245, 245);
   border-radius: 6px;
 }
+
