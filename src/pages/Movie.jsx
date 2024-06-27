@@ -59,6 +59,13 @@ const Movie = () => {
             </div>
           <div className='movie_info'>
 
+            <div className='info description'>
+              <h3>
+                <BsFillFileEarmarkTextFill /> Descrição:
+              </h3>
+              <p>{movie.overview}</p>
+            </div>
+            
             <div className='info'>
               <h3>
                 <BsCalendar2X/> Data de Lançamento:
@@ -88,12 +95,6 @@ const Movie = () => {
               <p>{movie.runtime} minutos</p>
             </div>
 
-            <div className='info description'>
-              <h3>
-                <BsFillFileEarmarkTextFill /> Descrição:
-              </h3>
-              <p>{movie.overview}</p>
-            </div>
 
             <div className='cast'>
               <h3>Elenco:</h3>
