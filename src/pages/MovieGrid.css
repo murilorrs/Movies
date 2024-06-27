@@ -17,8 +17,8 @@ span {
   color: #d12a2a;
 }
 
-h2 {
-  font-size: 19px;
+.titulo h2 {
+  font-size: 100px;
 }
 
 .movies-container {

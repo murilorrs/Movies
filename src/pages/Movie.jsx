@@ -50,10 +50,12 @@ const Movie = () => {
       <div className='overlay'></div>
 
       {movie && (
+
+        
         <div className='movie_details'>
+          <h2>{movie.title}</h2>
           <div className='movie_info'>
             <div className='titulo'>
-              <h1>{movie.title}</h1>
               <p className='tagline'>{movie.tagline}</p>
             </div>
 
@@ -88,7 +90,7 @@ const Movie = () => {
             <div className='cast'>
               <h3>Elenco:</h3>
               <ul>
-                {cast.slice(0,9).map((actor) => (
+                {cast.slice(0,7).map((actor) => (
                   <li key={actor.id}>{actor.name} - {actor.character}</li>
                 ))}
               </ul>
