@@ -9,6 +9,7 @@
 .title{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 35px;
+  padding-top: 60px;
 }
 
 span {
@@ -29,6 +30,8 @@ h2 {
   justify-content: center;
 }
 
+
+
 .movie-card {
   display: flex;
   flex-direction: column;
@@ -43,7 +46,10 @@ h2 {
 
 .infos {
   margin-top: auto;
-  
+}
+
+.infos p svg {
+  color: rgb(226, 226, 4);
 }
 
 .button_detalhes{
