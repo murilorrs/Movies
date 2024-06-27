@@ -6,13 +6,23 @@
   margin: 0 auto;
 }
 
+.title{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+}
+
+span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #d12a2a;
+}
+
 h2 {
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .movies-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
   gap: 30px;
   max-width: 100%;
   margin-top: 30px;
@@ -23,7 +33,7 @@ h2 {
   flex-direction: column;
   /* align-items: flex-start; */
   /* Alinha os itens à esquerda */
-  max-width: 100%;
+  max-width: 300px;
   gap: 13px;
   padding: 12px;
   background-color: #faf7f7;
