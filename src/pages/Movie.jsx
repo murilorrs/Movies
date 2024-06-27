@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { BsGraphUp, BsHourglassSplit, BsFillFileEarmarkTextFill, BsWallet } from 'react-icons/bs';
+import { BsCalendar2X, BsGraphUp, BsHourglassSplit, BsFillFileEarmarkTextFill, BsWallet } from 'react-icons/bs';
 
 import './Movie.css';
 
@@ -53,11 +53,19 @@ const Movie = () => {
 
         
         <div className='movie_details'>
-          <h2>{movie.title}</h2>
-          <div className='movie_info'>
             <div className='titulo'>
+              <h2>{movie.title}</h2>
               <p className='tagline'>{movie.tagline}</p>
             </div>
+          <div className='movie_info'>
+
+            <div className='info'>
+              <h3>
+                <BsCalendar2X/> Data de Lançamento:
+              </h3>
+              <p>{movie.release_date}</p>
+            </div>
+
 
             <div className='info'>
               <h3>
